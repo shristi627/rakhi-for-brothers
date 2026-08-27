@@ -2,1259 +2,749 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta charset="UTF-8">
+  <title>Happy Raksha Bandhan ❤️</title>
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <title>Our Little Rakhi Story ❤️</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link
-        rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin
-    >
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
-        rel="stylesheet"
-    >
-
-    <link
-        rel="stylesheet"
-        href="style.css"
-    >
-
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- =====================================================
-     FLOATING DECORATIONS
-===================================================== -->
+  <!-- =========================
+       BACKGROUND
+  ========================== -->
 
-<div class="floating-hearts">
+  <div class="pattern"></div>
 
-    <span>♡</span>
-    <span>✦</span>
-    <span>🌸</span>
-    <span>♡</span>
-    <span>✧</span>
-    <span>🌷</span>
-    <span>♡</span>
-    <span>✦</span>
-    <span>🌸</span>
-    <span>♡</span>
-
-</div>
+  <div class="flower flower1">🌸</div>
+  <div class="flower flower2">🪷</div>
+  <div class="flower flower3">🌺</div>
+  <div class="flower flower4">🌸</div>
 
 
-<!-- =====================================================
-     OPENING SCREEN
-===================================================== -->
+  <!-- =========================
+       MUSIC
+  ========================== -->
 
-<section
-    class="opening-screen"
-    id="openingScreen"
->
+  <audio id="bgMusic" loop>
+    <source src="music/rakhi-song.mp3" type="audio/mpeg">
+  </audio>
 
-    <div class="opening-orb orb-one"></div>
-    <div class="opening-orb orb-two"></div>
+  <button id="musicBtn" class="music-btn">
+    🔇
+  </button>
 
-    <div class="opening-content">
 
-        <div class="little-rakhi">
-            🪷
-        </div>
+  <!-- =========================
+       INTRO
+  ========================== -->
 
-        <div class="opening-label">
-            RAKSHA BANDHAN • 2026
-        </div>
+  <div id="intro">
 
-        <h1>
+    <div class="intro-content">
 
-            For My
+      <div class="intro-rakhi">🪢</div>
 
-            <span>
-                Favourite People
-            </span>
+      <h1>
+        Someone Special Has
+        A Rakhi Message For You 💝
+      </h1>
 
-        </h1>
+      <p>
+        Ek chhota sa surprise tumhara wait kar raha hai...
+      </p>
 
-        <div class="gold-line"></div>
-
-        <p class="opening-text">
-
-            This year I'm a little far from home...
-
-            <br>
-
-            but my heart is still right there
-            with all of you. ❤️
-
-        </p>
-
-        <div class="opening-actions">
-
-            <button
-                class="surprise-button"
-                id="openSurprise"
-            >
-
-                <span class="button-icon">
-                    🎁
-                </span>
-
-                <span>
-                    Open My Surprise
-                </span>
-
-                <span>
-                    ✨
-                </span>
-
-            </button>
-
-            <button
-                class="song-button"
-                id="musicButton"
-            >
-
-                <span
-                    id="musicIcon"
-                    class="music-icon"
-                >
-                    🎵
-                </span>
-
-                <span id="musicText">
-                    Play Our Song
-                </span>
-
-            </button>
-
-        </div>
-
-        <div class="opening-hint">
-
-            ♫ A little music makes the memories
-            even more special ♫
-
-        </div>
+      <button id="openSurprise" class="btn gold">
+        Open Surprise 🎁
+      </button>
 
     </div>
 
-</section>
+  </div>
 
 
-<!-- =====================================================
-     MAIN WEBSITE
-===================================================== -->
+  <!-- =========================
+       HERO
+  ========================== -->
 
-<main
-    id="mainWebsite"
-    class="main-website"
->
+  <section class="hero">
 
+    <div class="container reveal zoom">
 
-<!-- =====================================================
-     HERO
-===================================================== -->
+      <div class="rakhi-icon">
+        🪢
+      </div>
 
-<section class="hero-section">
+      <h1>
+        Happy <span>Raksha Bandhan</span> ❤️
+      </h1>
 
-    <div class="hero-pattern">
-        ✦
-    </div>
+      <p class="hero-text">
 
-    <div class="hero-content">
+        Rakhi sirf ek dhaaga nahi hota.
+        Yeh ek aisa rishta hai jo pyaar,
+        trust, care, fights, laughter aur
+        lifetime memories se bana hota. ❤️
 
-        <div class="hero-small">
-            A LITTLE SURPRISE
-        </div>
+      </p>
 
-        <h2>
+      <div class="name-box">
 
-            Because Some Bonds
-
-            <span>
-                Deserve Their Own Story.
-            </span>
-
-        </h2>
-
-        <p>
-
-            This isn't just a website.
-
-            <br>
-
-            It's a little piece of my heart,
-            made for the people who make
-            my life beautiful.
-
-        </p>
-
-        <div class="hero-rakhi">
-            🪷
-        </div>
-
-        <div class="scroll-down">
-
-            <span>
-                SCROLL SLOWLY
-            </span>
-
-            <div></div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     FAMILY INTRO
-===================================================== -->
-
-<section class="section family-section">
-
-    <div class="section-title">
-
-        <span>
-            OUR LITTLE WORLD
-        </span>
-
-        <h2>
-
-            One Family.
-
-            <em>
-                Countless Memories.
-            </em>
-
-        </h2>
-
-        <p>
-
-            Different personalities,
-            different kinds of mischief,
-            different little fights...
-
-            <br>
-
-            but somehow,
-            one beautiful family. ❤️
-
-        </p>
-
-    </div>
-
-    <div class="main-photo-frame">
-
-        <div class="photo-corner corner-one"></div>
-        <div class="photo-corner corner-two"></div>
-
-        <img
-            src="images/all-seven.jpeg"
-            alt="Our Family"
-            onclick="openPhoto(this.src)"
+        <input
+          type="text"
+          id="nameInput"
+          placeholder="Enter your special person's name"
         >
 
-        <div class="photo-label">
+      </div>
 
-            <span>
-                ♡
-            </span>
+      <button class="btn" onclick="personalize()">
+        Make It Personal 💖
+      </button>
 
-            OUR PEOPLE
-
-            <span>
-                ♡
-            </span>
-
-        </div>
+      <button class="btn gold" onclick="celebrate()">
+        Celebrate 🎉
+      </button>
 
     </div>
 
-</section>
+  </section>
 
 
-<!-- =====================================================
-     BROTHERS
-===================================================== -->
+  <!-- =========================
+       OUR BOND
+  ========================== -->
 
-<section class="section brothers-section">
+  <section class="bond">
 
-    <div class="section-title">
+    <div class="container">
 
-        <span>
-            MY BROTHERS ❤️
-        </span>
+      <h2 class="section-title reveal">
+        Our Beautiful Bond 💕
+      </h2>
 
-        <h2>
+      <p class="section-subtitle reveal">
 
-            The Ones Who
+        Kuch rishte duniya ke sabse beautiful
+        relationships mein se hote hain.
+        Brother aur sister ka bond bhi unhi mein se ek hai.
 
-            <em>
-                Always Have My Back.
-            </em>
+      </p>
 
-        </h2>
 
-        <p>
+      <div class="cards">
 
-            From childhood arguments
-            to growing up together...
+        <div class="card reveal left">
 
-            <br>
+          <div class="card-icon">❤️</div>
 
-            some bonds never grow old.
+          <h3>Endless Love</h3>
 
-        </p>
+          <p>
+            Chahe kitni bhi nok-jhok ho,
+            ek doosre ke liye dil mein
+            pyaar hamesha rehta hai.
+          </p>
+
+        </div>
+
+
+        <div class="card reveal zoom">
+
+          <div class="card-icon">🤝</div>
+
+          <h3>Always Together</h3>
+
+          <p>
+            Life ke har difficult moment mein
+            ek doosre ka support banna hi
+            is rishte ki sabse beautiful baat hai.
+          </p>
+
+        </div>
+
+
+        <div class="card reveal right">
+
+          <div class="card-icon">😂</div>
+
+          <h3>Crazy Memories</h3>
+
+          <p>
+            Fights, teasing, secrets aur
+            woh countless moments jo
+            hamesha smile de jaate hain.
+          </p>
+
+        </div>
+
+      </div>
 
     </div>
 
-
-    <div class="brother-grid">
-
-
-        <!-- SUDHIR -->
-
-        <article class="brother-card">
-
-            <div class="card-photo">
-
-                <span class="card-number">
-                    01
-                </span>
-
-                <img
-                    src="images/sudhir1.jpeg"
-                    alt="Sudhir Bhaiya"
-                    onclick="openPhoto(this.src)"
-                >
-
-            </div>
-
-            <div class="card-body">
-
-                <span class="card-tag">
-                    BIG BROTHER
-                </span>
-
-                <h3>
-                    Sudhir
-                    <small>
-                        Bhaiya
-                    </small>
-                </h3>
-
-                <p>
-
-                    The one who can annoy me,
-                    lecture me and still somehow
-                    make me feel protected.
-
-                    ❤️
-
-                </p>
-
-                <div class="card-heart">
-                    ♡
-                </div>
-
-            </div>
-
-        </article>
+  </section>
 
 
-        <!-- MONU -->
+  <!-- =========================
+       OUR MEMORIES
+  ========================== -->
 
-        <article class="brother-card">
+  <section class="memories">
 
-            <div class="card-photo">
+    <div class="container">
 
-                <span class="card-number">
-                    02
-                </span>
+      <h2 class="section-title reveal">
+        Our Beautiful Memories 📸❤️
+      </h2>
 
-                <img
-                    src="images/monu.jpeg"
-                    alt="Monu Bhaiya"
-                    onclick="openPhoto(this.src)"
-                >
+      <p class="section-subtitle reveal">
 
-            </div>
+        Kuch photos sirf photos nahi hoti...
+        unke andar pyaar, masti aur
+        countless memories chhupi hoti hain. 💝
 
-            <div class="card-body">
-
-                <span class="card-tag">
-                    MY BROTHER
-                </span>
-
-                <h3>
-                    Monu
-                    <small>
-                        Bhaiya
-                    </small>
-                </h3>
-
-                <p>
-
-                    Some relationships don't need
-                    explanations.
-
-                    They simply live quietly
-                    inside the heart.
-
-                    ❤️
-
-                </p>
-
-                <div class="card-heart">
-                    ♡
-                </div>
-
-            </div>
-
-        </article>
+      </p>
 
 
-        <!-- ANKIT -->
+      <div class="photo-grid">
 
-        <article class="brother-card">
 
-            <div class="card-photo">
+        <div class="photo-card reveal left"
+             onclick="openPhoto('images/bro1.jpg.jpeg')">
 
-                <span class="card-number">
-                    03
-                </span>
+          <img src="images/bro1.jpg.jpeg" alt="Brother Memory 1">
 
-                <img
-                    src="images/ankit.jpeg"
-                    alt="Ankit Bhaiya"
-                    onclick="openPhoto(this.src)"
-                >
+          <div class="photo-caption">
+            <span>❤️</span>
+            <h3>Our Special Memory</h3>
+            <p>A memory to keep forever.</p>
+          </div>
 
-            </div>
+        </div>
 
-            <div class="card-body">
 
-                <span class="card-tag">
-                    MY BROTHER
-                </span>
+        <div class="photo-card reveal zoom"
+             onclick="openPhoto('images/bro2.jpg.jpeg')">
 
-                <h3>
-                    Ankit
-                    <small>
-                        Bhaiya
-                    </small>
-                </h3>
+          <img src="images/bro2.jpg.jpeg" alt="Brother Memory 2">
 
-                <p>
+          <div class="photo-caption">
+            <span>🫶</span>
+            <h3>Forever Special</h3>
+            <p>Some moments stay forever.</p>
+          </div>
 
-                    The simple moments,
-                    random jokes and little fights...
+        </div>
 
-                    somehow they become
-                    the memories we miss most.
 
-                    ❤️
+        <div class="photo-card reveal right"
+             onclick="openPhoto('images/bro3.jpg.jpeg')">
 
-                </p>
+          <img src="images/bro3.jpg.jpeg" alt="Brother Memory 3">
 
-                <div class="card-heart">
-                    ♡
-                </div>
+          <div class="photo-caption">
+            <span>😂</span>
+            <h3>Crazy Memories</h3>
+            <p>Fights, fun & laughter.</p>
+          </div>
 
-            </div>
+        </div>
 
-        </article>
+
+        <div class="photo-card reveal left"
+             onclick="openPhoto('images/bro4.jpg.jpeg')">
+
+          <img src="images/bro4.jpg.jpeg" alt="Brother Memory 4">
+
+          <div class="photo-caption">
+            <span>💖</span>
+            <h3>Beautiful Bond</h3>
+            <p>Distance can never change love.</p>
+          </div>
+
+        </div>
+
+
+        <div class="photo-card reveal zoom"
+             onclick="openPhoto('images/bro5.jpg.jpeg')">
+
+          <img src="images/bro5.jpg.jpeg" alt="Brother Memory 5">
+
+          <div class="photo-caption">
+            <span>🌸</span>
+            <h3>Precious Moment</h3>
+            <p>A little picture, a lot of memories.</p>
+          </div>
+
+        </div>
+
+
+        <div class="photo-card reveal right"
+             onclick="openPhoto('images/bro6.jpg.jpeg')">
+
+          <img src="images/bro6.jpg.jpeg" alt="Brother Memory 6">
+
+          <div class="photo-caption">
+            <span>🪢</span>
+            <h3>Rakhi Memories</h3>
+            <p>The bond that means everything.</p>
+          </div>
+
+        </div>
+
+
+        <div class="photo-card reveal left"
+             onclick="openPhoto('images/bro7.jpg.jpeg')">
+
+          <img src="images/bro7.jpg.jpeg" alt="Brother Memory 7">
+
+          <div class="photo-caption">
+            <span>✨</span>
+            <h3>Special Moments</h3>
+            <p>Memories we will always treasure.</p>
+          </div>
+
+        </div>
+
+
+        <div class="photo-card reveal zoom"
+             onclick="openPhoto('images/bro8.jpg.jpeg')">
+
+          <img src="images/bro8.jpg.jpeg" alt="Brother Memory 8">
+
+          <div class="photo-caption">
+            <span>💝</span>
+            <h3>Our Story</h3>
+            <p>One family, countless memories.</p>
+          </div>
+
+        </div>
+
+
+        <div class="photo-card sister-card reveal right"
+             onclick="openPhoto('images/sis1.jpg.jpeg')">
+
+          <img src="images/sis1.jpg.jpeg" alt="Sister Memory">
+
+          <div class="photo-caption">
+            <span>👧🏻❤️</span>
+            <h3>With Love, From Sister</h3>
+            <p>Missing you all from hostel. 🥹</p>
+          </div>
+
+        </div>
+
+
+      </div>
 
     </div>
 
-</section>
+  </section>
 
 
-<!-- =====================================================
-     MEMORY SECTION
-===================================================== -->
+  <!-- =========================
+       PHOTO VIEWER
+  ========================== -->
 
-<section class="section memories-section">
+  <div id="photoViewer"
+       class="photo-viewer"
+       onclick="closePhoto()">
 
-    <div class="section-title">
-
-        <span>
-            LITTLE PIECES OF US
-        </span>
-
-        <h2>
-
-            Memories That
-
-            <em>
-                Never Grow Old.
-            </em>
-
-        </h2>
-
-    </div>
-
-
-    <div class="memory-grid">
-
-        <div class="memory-item memory-tall">
-
-            <img
-                src="images/sudhir2.jpeg"
-                alt="Memory"
-                onclick="openPhoto(this.src)"
-            >
-
-            <span>
-                a little memory ♡
-            </span>
-
-        </div>
-
-
-        <div class="memory-item">
-
-            <img
-                src="images/sudhir3.jpeg"
-                alt="Memory"
-                onclick="openPhoto(this.src)"
-            >
-
-        </div>
-
-
-        <div class="memory-item">
-
-            <img
-                src="images/ansh.jpeg"
-                alt="Memory"
-                onclick="openPhoto(this.src)"
-            >
-
-        </div>
-
-
-        <div class="memory-item memory-wide">
-
-            <img
-                src="images/ansh2.jpeg"
-                alt="Memory"
-                onclick="openPhoto(this.src)"
-            >
-
-        </div>
-
-
-        <div class="memory-item">
-
-            <img
-                src="images/ansh3.jpeg"
-                alt="Memory"
-                onclick="openPhoto(this.src)"
-            >
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     EMOTIONAL LETTER
-===================================================== -->
-
-<section class="section letter-section">
-
-    <div class="section-title">
-
-        <span>
-            FROM HOSTEL, WITH LOVE 💌
-        </span>
-
-        <h2>
-
-            A Letter
-
-            <em>
-                From My Heart.
-            </em>
-
-        </h2>
-
-        <p>
-
-            This year I can't be there in person...
-
-            <br>
-
-            so I wrote down everything
-            I wanted to say. ❤️
-
-        </p>
-
-    </div>
-
-
-    <div class="letter-container">
-
-        <div class="letter-flower flower-left">
-            🌸
-        </div>
-
-        <div class="letter-flower flower-right">
-            ✨
-        </div>
-
-
-        <div class="letter-paper">
-
-            <div class="letter-header">
-
-                <span>
-                    💌
-                </span>
-
-                <p>
-                    A LETTER FROM HOSTEL
-                </p>
-
-                <span>
-                    💌
-                </span>
-
-            </div>
-
-
-            <div class="letter-content">
-
-
-                <p class="letter-dear">
-
-                    Dear Sudhir Bhaiya,
-                    Monu Bhaiya,
-                    Ankit Bhaiya...
-
-                    and my little ones —
-                    Ansh, Khushi & Rudra ❤️
-
-                </p>
-
-
-                <p>
-
-                    You know...
-                    this Raksha Bandhan feels
-                    a little different for me.
-
-                    Every year, when Rakhi comes around,
-                    there is a different kind of excitement
-                    in the house.
-
-                    The family getting together,
-                    all the laughter,
-                    sweets,
-                    Rakhi,
-                    photographs...
-
-                    and most importantly —
-                    spending that special time
-                    with all of you.
-
-                </p>
-
-
-                <p>
-
-                    But this year, I am in the hostel.
-
-                    And honestly,
-                    no matter how much I try to act normal,
-                    deep down I am missing all of you
-                    so much. 🥺
-
-                </p>
-
-
-                <p>
-
-                    The hardest part is knowing
-                    that this year I won't be able to
-                    tie Rakhi on your wrists with my own hands.
-
-                    Maybe for someone else,
-                    it might seem like a small thing...
-
-                    but not for me.
-
-                    Because Rakhi is not just a thread.
-
-                    It carries so many memories
-                    from our childhood
-                    and so much love in it. ❤️
-
-                </p>
-
-
-                <p>
-
-                    Sudhir Bhaiya,
-
-                    I miss those little arguments with you,
-                    your occasional scolding,
-                    the care you show,
-                    and that special feeling
-                    of having an elder brother.
-
-                    I miss all of it.
-
-                    Maybe I don't always express it,
-                    but you are truly
-                    very important to me. ❤️
-
-                </p>
-
-
-                <p>
-
-                    Monu Bhaiya,
-
-                    When we are at home,
-                    we don't always realize
-                    how precious the ordinary moments are.
-
-                    But when you are far away,
-                    those random conversations,
-                    silly jokes,
-                    little fights,
-                    and everyday family moments
-                    are the things you miss the most.
-
-                </p>
-
-
-                <p>
-
-                    Ankit Bhaiya,
-
-                    I will miss you a lot this Rakhi too.
-
-                    Sometimes simply sitting together
-                    in the same room,
-                    laughing for no special reason,
-                    or annoying each other
-                    over the smallest things...
-
-                    those are actually
-                    some of the most special moments
-                    we have. ❤️
-
-                </p>
-
-
-                <p>
-
-                    And my little ones —
-                    Ansh, Khushi and Rudra...
-
-                    I miss you all too.
-
-                    Your mischief,
-                    your smiles,
-                    your little conversations...
-
-                    Rakhi will feel a little incomplete
-                    without all of you. 🥹
-
-                </p>
-
-
-                <div class="letter-highlight">
-
-                    <span>
-                        ❤️
-                    </span>
-
-                    This year, there may not be a Rakhi
-                    on my wrist,
-
-                    but the love I have for all of you
-                    in my heart is still the same...
-
-                    <strong>
-                        maybe even a little more.
-                    </strong>
-
-                    <span>
-                        ❤️
-                    </span>
-
-                </div>
-
-
-                <p>
-
-                    On this Rakhi,
-                    when you all see each other,
-                    I want you to remember me too.
-
-                    Just imagine that somewhere
-                    in a hostel room,
-                    your sister is thinking about all of you.
-
-                    I may not be able to celebrate Rakhi
-                    with you in person,
-
-                    but my heart is right there
-                    with all of you.
-
-                </p>
-
-
-                <p>
-
-                    And yes...
-
-                    when I finally come home,
-                    I expect a proper celebration
-                    for the Rakhi I missed. 😂❤️
-
-                    Double the sweets,
-                    double the photographs,
-                    double the fun...
-
-                    and yes,
-                    my Rakhi will still be waiting!
-
-                </p>
-
-
-                <p>
-
-                    Being away from home
-                    has taught me something important —
-
-                    sometimes you don't realize
-                    how precious your people are
-                    until you are far away from them.
-
-                    And all of you are
-                    some of the most precious people
-                    in my life.
-
-                </p>
-
-
-                <p class="letter-final">
-
-                    So this Rakhi,
-                    even though I can't tie the Rakhi myself...
-
-                    please remember that
-
-                    <strong>
-                        my love, my wishes,
-                        and my heart are right there with you.
-                    </strong>
-
-                </p>
-
-
-                <p class="letter-ending">
-
-                    Happy Raksha Bandhan
-                    to my favourite people. ❤️
-
-                </p>
-
-
-                <div class="signature">
-
-                    <span>
-                        Missing you all a little extra today...
-                    </span>
-
-                    <strong>
-                        — Your Sister, Shrishti 💗
-                    </strong>
-
-                </div>
-
-            </div>
-
-
-            <div class="letter-footer">
-
-                <span>
-                    Forever connected
-                </span>
-
-                <span>
-                    Rakhi • 2026
-                </span>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     LITTLE ONES
-===================================================== -->
-
-<section class="section little-section">
-
-    <div class="section-title">
-
-        <span>
-            OUR LITTLE STARS ✨
-        </span>
-
-        <h2>
-
-            Small Names,
-
-            <em>
-                Big Place In My Heart.
-            </em>
-
-        </h2>
-
-    </div>
-
-
-    <div class="little-grid">
-
-
-        <article class="little-card">
-
-            <div class="little-image">
-
-                <img
-                    src="images/ansh.jpeg"
-                    alt="Ansh"
-                    onclick="openPhoto(this.src)"
-                >
-
-            </div>
-
-            <div class="little-text">
-
-                <span>
-                    ✨
-                </span>
-
-                <h3>
-                    Ansh
-                </h3>
-
-                <p>
-                    Our little bundle of memories.
-                </p>
-
-            </div>
-
-        </article>
-
-
-        <article class="little-card">
-
-            <div class="little-image">
-
-                <img
-                    src="images/khushi1.jpeg"
-                    alt="Khushi"
-                    onclick="openPhoto(this.src)"
-                >
-
-            </div>
-
-            <div class="little-text">
-
-                <span>
-                    🌸
-                </span>
-
-                <h3>
-                    Khushi
-                </h3>
-
-                <p>
-                    A little sunshine in our family.
-                </p>
-
-            </div>
-
-        </article>
-
-
-        <article class="little-card">
-
-            <div class="little-image">
-
-                <img
-                    src="images/rudra.jpeg"
-                    alt="Rudra"
-                    onclick="openPhoto(this.src)"
-                >
-
-            </div>
-
-            <div class="little-text">
-
-                <span>
-                    💫
-                </span>
-
-                <h3>
-                    Rudra
-                </h3>
-
-                <p>
-                    A small smile with a huge place
-                    in our hearts.
-                </p>
-
-            </div>
-
-        </article>
-
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     SISTER
-===================================================== -->
-
-<section class="section sister-section">
-
-    <div class="sister-box">
-
-        <div class="sister-image">
-
-            <img
-                src="images/sister.jpeg"
-                alt="Sister"
-                onclick="openPhoto(this.src)"
-            >
-
-        </div>
-
-
-        <div class="sister-text">
-
-            <span>
-                AND THEN THERE'S ME ❤️
-            </span>
-
-
-            <h2>
-
-                The Sister Who Is
-
-                <em>
-                    Missing Home.
-                </em>
-
-            </h2>
-
-
-            <p>
-
-                I may not be at home physically,
-                but on this Rakhi,
-                my whole heart is with all of you.
-
-            </p>
-
-
-            <p>
-
-                This website isn't just a surprise...
-
-                it's my little virtual Rakhi
-                for all of you. 💗
-
-            </p>
-
-
-            <div class="sister-signature">
-
-                With all my love,
-
-                <strong>
-                    Your Sister ❤️
-                </strong>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     FINAL MESSAGE
-===================================================== -->
-
-<section class="final-section">
-
-    <div class="final-content">
-
-        <div class="final-symbol">
-            🪷
-        </div>
-
-        <span>
-            ONE LAST THING...
-        </span>
-
-        <h2>
-
-            Distance Can Separate
-            <em>
-                Places...
-            </em>
-
-            <br>
-
-            Never Hearts. ❤️
-
-        </h2>
-
-
-        <p>
-
-            Sending all of you
-            a big virtual hug
-            from your hostel room. 🤗
-
-            <br><br>
-
-            I miss you.
-            I love you.
-            And I will always be your sister.
-
-        </p>
-
-
-        <div class="final-hearts">
-
-            ❤️ &nbsp; ✨ &nbsp; ❤️
-
-        </div>
-
-
-        <div class="final-sign">
-
-            HAPPY RAKSHA BANDHAN
-
-            <strong>
-                2026
-            </strong>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =====================================================
-     FOOTER
-===================================================== -->
-
-<footer>
-
-    <div class="footer-heart">
-        ❤️
-    </div>
-
-
-    <p>
-        Made from a hostel room,
-        with a heart full of memories.
-    </p>
-
-
-    <span>
-        For my beautiful family • Rakhi 2026
-    </span>
-
-</footer>
-
-
-</main>
-
-
-<!-- =====================================================
-     IMAGE POPUP
-===================================================== -->
-
-<div
-    class="photo-modal"
-    id="photoModal"
->
-
-    <button
-        class="close-photo"
-        onclick="closePhoto()"
-    >
-        ×
+    <button class="photo-close"
+            onclick="closePhoto(event)">
+      ✕
     </button>
 
+    <img id="fullPhoto"
+         src=""
+         alt="Full Memory">
 
-    <img
-        id="popupImage"
-        src=""
-        alt="Full Photo"
-    >
-
-</div>
+  </div>
 
 
-<!-- =====================================================
-     MUSIC
-===================================================== -->
+  <!-- =========================
+       BIG MESSAGE
+  ========================== -->
 
-<audio
-    id="rakhiMusic"
-    loop
-    preload="auto"
->
+  <section class="message-section">
 
-    <source
-        src="music/rakhi-song.mp3"
-        type="audio/mpeg"
-    >
+    <div class="container">
 
-</audio>
+      <h2 class="section-title reveal">
+        A Very Special Message 💌
+      </h2>
 
 
-<script src="script.js"></script>
+      <div class="big-letter reveal zoom">
+
+        <div class="letter-icon">
+          💌
+        </div>
+
+
+        <p id="personalMessage">
+
+          Dear Special One,
+
+          <br><br>
+
+          Raksha Bandhan ka din sirf Rakhi baandhne
+          ya sweets share karne ka din nahi hai.
+          Yeh us beautiful relationship ko celebrate
+          karne ka din hai jo humare life ka ek
+          bahut important part hai.
+
+          <br><br>
+
+          Kabhi hum ek doosre se ladte hain,
+          kabhi ek doosre ko irritate karte hain,
+          kabhi bina kisi reason ke argue karte hain,
+          aur kabhi ek doosre ki chhoti si baat par
+          hasne lagte hain.
+
+          <br><br>
+
+          Lekin in sab ke peeche jo cheez hamesha
+          same rehti hai, woh hai humara pyaar.
+          Chahe life humein kitna bhi door le jaaye,
+          humare beech ka bond kabhi kam nahi hona chahiye.
+
+          <br><br>
+
+          Main dil se wish karta/karti hoon ki tumhari
+          life hamesha happiness, success, good health
+          aur beautiful memories se bhari rahe.
+
+          <br><br>
+
+          Tumhari har wish poori ho.
+          Tumhare har dream ko ek din
+          reality banne ka mauka mile.
+
+          <br><br>
+
+          Aur jab life difficult ho,
+          jab cheezein tumhare favour mein na ho,
+          tab bhi tumhe yaad rahe ki tum akela/akeli nahi ho.
+
+          <br><br>
+
+          Humari fights kitni bhi ho,
+          arguments kitne bhi ho,
+          teasing kitni bhi ho...
+
+          <br><br>
+
+          At the end of the day,
+          you will always have a special place
+          in my heart. ❤️
+
+          <br><br>
+
+          Is Rakhi par bas ek hi wish hai —
+
+          <br><br>
+
+          <strong>
+            Hamesha khush raho,
+            hamesha smile karo,
+            aur humara yeh beautiful bond
+            hamesha aisa hi bana rahe.
+          </strong>
+
+          <br><br>
+
+          Happy Raksha Bandhan! 🪢❤️
+
+          <br><br>
+
+          With lots of love,
+          <br>
+          Always & Forever 💝
+
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       RAKHI
+  ========================== -->
+
+  <section class="rakhi-section">
+
+    <div class="container">
+
+      <h2 class="section-title reveal">
+        A Rakhi Full Of Love 🪢
+      </h2>
+
+      <p class="section-subtitle reveal">
+
+        Yeh sirf ek thread nahi,
+        balki protection, trust,
+        care aur lifetime love ka symbol hai.
+
+      </p>
+
+
+      <div class="rakhi-stage reveal zoom">
+
+        <div class="thread"></div>
+
+        <div class="rakhi-center">
+          ✨
+        </div>
+
+      </div>
+
+
+      <button
+        class="btn"
+        onclick="rakhiMagic()">
+        Feel The Magic ✨
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       WISHES
+  ========================== -->
+
+  <section class="wishes">
+
+    <div class="container">
+
+      <h2 class="section-title reveal">
+        Special Rakhi Wishes 🌟
+      </h2>
+
+
+      <div class="wish-grid">
+
+        <div class="wish reveal left">
+          🌸 May your life always be
+          filled with happiness.
+        </div>
+
+        <div class="wish reveal zoom">
+          🪔 May every new journey
+          bring you success.
+        </div>
+
+        <div class="wish reveal right">
+          ❤️ May our bond become
+          stronger every year.
+        </div>
+
+        <div class="wish reveal left">
+          🧿 May you always stay
+          protected from negativity.
+        </div>
+
+        <div class="wish reveal zoom">
+          ✨ May every dream
+          become reality.
+        </div>
+
+        <div class="wish reveal right">
+          💝 May our crazy bond
+          always remain the same.
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       GIFT
+  ========================== -->
+
+  <section class="gift-section">
+
+    <div class="container">
+
+      <h2 class="section-title reveal">
+        There Is A Surprise For You 🎁
+      </h2>
+
+      <p class="section-subtitle reveal">
+
+        Gift box par click karo
+        aur hidden message dekho.
+
+      </p>
+
+
+      <div
+        class="gift reveal zoom"
+        id="gift">
+
+        <div class="gift-lid"></div>
+
+        <div class="gift-box"></div>
+
+      </div>
+
+
+      <div
+        class="gift-message"
+        id="giftMessage">
+
+        <h3>
+          💝 Surprise!
+        </h3>
+
+        <p>
+
+          You are truly special.
+
+          <br><br>
+
+          Rakhi ka thread chhota ho sakta hai,
+          lekin uske peeche chhupa pyaar
+          bahut bada hota hai. ❤️
+
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       ENVELOPE
+  ========================== -->
+
+  <section class="letter-section">
+
+    <div class="container">
+
+      <h2 class="section-title reveal">
+        One More Letter For You 💌
+      </h2>
+
+      <p class="section-subtitle reveal">
+        Envelope ko open karo...
+      </p>
+
+
+      <div
+        class="envelope reveal zoom"
+        id="envelope"
+        onclick="openEnvelope()">
+
+        <div class="envelope-paper">
+
+          <strong>
+            A Little Reminder ❤️
+          </strong>
+
+          <br><br>
+
+          No matter where life takes us,
+          this bond will always be special.
+
+        </div>
+
+      </div>
+
+
+      <button
+        class="btn"
+        onclick="openEnvelope()">
+        Open Letter 💌
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       FINAL
+  ========================== -->
+
+  <section class="final">
+
+    <div class="container">
+
+      <div class="final-rakhi reveal zoom">
+        🪢
+      </div>
+
+      <h2 class="section-title reveal">
+        Happy Raksha Bandhan! 🎉
+      </h2>
+
+      <p class="final-text reveal">
+
+        May this beautiful bond always remain
+        full of love, laughter, happiness
+        and countless beautiful memories.
+
+        <br><br>
+
+        Stay happy.
+        Stay blessed.
+        Keep smiling.
+
+        <br><br>
+
+        And remember...
+
+        <br><br>
+
+        <strong>
+          Some bonds are forever. ❤️
+        </strong>
+
+      </p>
+
+
+      <button
+        class="btn gold reveal"
+        onclick="celebrate(true)">
+        Send Love ❤️
+      </button>
+
+
+      <button
+        class="btn reveal"
+        onclick="shareWish()">
+        Share Rakhi Wish 🔗
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       TOAST
+  ========================== -->
+
+  <div
+    id="toast"
+    class="toast">
+  </div>
+
+
+  <script src="script.js"></script>
 
 </body>
-
 </html>
